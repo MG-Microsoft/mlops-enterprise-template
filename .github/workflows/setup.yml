@@ -14,7 +14,7 @@ on:
 env:
   AZURE_RESOURCE_GROUP: MLOps-Taha  #set this to your resource group name Taha
   STORAGE_ACCOUNT: mlops0412           #set this to your storage-account-name
-    
+# deneme - uncomment edildi 562-600 line lar
 jobs:
   deployment:
     runs-on: ubuntu-latest
