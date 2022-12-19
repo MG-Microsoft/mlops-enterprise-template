@@ -3,7 +3,7 @@ name: Model deployment
 on:
   repository_dispatch:
     types: [machinelearningservices-runcompleted]
-
+#deneme
 jobs:
   deploy:
     runs-on: ubuntu-latest
