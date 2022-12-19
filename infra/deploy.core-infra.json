@@ -559,7 +559,7 @@
         }
       }
     }
-    /*Remove this line to uncomment 
+
     ,
     {
        "condition": "[equals(parameters('dataLakeNewOrExisting'), 'new')]",
@@ -597,7 +597,7 @@
         }
       }
     }
-    Remove this line to uncomment */
+
   ],
   "outputs": {  }
 }
