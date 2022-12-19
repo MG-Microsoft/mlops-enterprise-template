@@ -7,9 +7,6 @@
     },
     "workspaceName": {
       "value": "demoAzMLWorkspace"
-    },
-    "DataLakestorageName": {
-      "value": "mydlsdemo2"
     }
   }
 }
