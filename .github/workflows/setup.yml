@@ -43,4 +43,4 @@ jobs:
             --resource-group ${{ env.AZURE_RESOURCE_GROUP }} \
             --template-file $GITHUB_WORKSPACE/infra/deploy.core-infra.json \
             --parameters $GITHUB_WORKSPACE/infra/params.deploy.core-infra.json \
-            patToken=${{secrets.PATTOKEN}} repo_name=$GITHUB_REPOSITORY DataLakestorageName=${{ env.STORAGE_ACCOUNT }}
+            patToken=${{secrets.PATTOKEN}} repo_name=$GITHUB_REPOSITORY 
